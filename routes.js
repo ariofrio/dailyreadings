@@ -21,6 +21,7 @@ exports.api = function(req, res) {
         function(errors, window) {
       var $ = window.$;
       var result = {};
+      result.href = url;
       result.readings = [];
 
       try {
