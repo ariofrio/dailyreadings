@@ -1,10 +1,6 @@
 var jsdom = require('jsdom');
 var Cache = require('./cache');
 
-exports.index = function(req, res){
-  res.render('index', { title: 'Express' });
-};
-
 var cache = new Cache(128);
 exports.api = function(req, res) {
   var hit;

@@ -7,7 +7,6 @@
   },
   "dependencies": {
     "express": "3.0.3",
-    "jade": "*",
     "jsdom": "~0.2.19"
   },
   "engines": {

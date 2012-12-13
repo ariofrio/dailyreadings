@@ -21,7 +21,6 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
-app.get('/', routes.index);
 app.get('/api/:date', routes.api);
 
 http.createServer(app).listen(app.get('port'), function(){
