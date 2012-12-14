@@ -46,6 +46,19 @@ html, body {
 }
 
 #container {
+  -webkit-transition: -webkit-transform .5s ease-out;
+  -moz-transition: -moz-transform .5s ease-out;
+  -ms-transition: -ms-transform .5s ease-out;
+  -o-transition: -o-transform .5s ease-out;
+  transition: transform .5s ease-out;
+
+  /*
+  -webkit-transition-timing-function: cubic-bezier(0.000, 0.000, 0.100, 1.365); 
+     -moz-transition-timing-function: cubic-bezier(0.000, 0.000, 0.100, 1.365); 
+      -ms-transition-timing-function: cubic-bezier(0.000, 0.000, 0.100, 1.365); 
+       -o-transition-timing-function: cubic-bezier(0.000, 0.000, 0.100, 1.365); 
+          transition-timing-function: cubic-bezier(0.000, 0.000, 0.100, 1.365); /* custom */
+          
   white-space: nowrap;
 }
 
